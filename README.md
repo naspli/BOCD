@@ -4,7 +4,9 @@ Choose an input dataset, a conjugate-exponential model, and a few tuning paramet
 
 detection.py      
 - the head file that contains a high-level implementation of the algorithm
+
 hyperparameter.py 
 - as the algorithm depends largely on the model, this file contains classes for various conjugate-exponential models. This is where the hyperparameters of the model are stored and updated.
+
 well-log-example.dat
 - test data
